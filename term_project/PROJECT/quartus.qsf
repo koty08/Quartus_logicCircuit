@@ -1,0 +1,110 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 19:29:06  November 30, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		quartus_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY CPU_MEMORY
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:29:06  NOVEMBER 30, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name VERILOG_FILE textLCD.v
+set_global_assignment -name BDF_FILE trigger.bdf
+set_global_assignment -name BDF_FILE CPU_MEMORY.bdf
+set_global_assignment -name BDF_FILE tpj.bdf
+set_global_assignment -name BDF_FILE sram_8bitx8.bdf
+set_global_assignment -name BDF_FILE reg_8bit_ce_sharp.bdf
+set_global_assignment -name BDF_FILE RAM_to_CPU.bdf
+set_global_assignment -name BDF_FILE mux_8bit_4x1.bdf
+set_global_assignment -name BDF_FILE demux.bdf
+set_global_assignment -name BDF_FILE Block1.bdf
+set_global_assignment -name BDF_FILE ascii_to_address.bdf
+set_global_assignment -name BDF_FILE ascii_comparator.bdf
+set_global_assignment -name BDF_FILE count_8.bdf
+set_global_assignment -name BDF_FILE count_4.bdf
+set_global_assignment -name BDF_FILE mux_8bit_16x1.bdf
+set_global_assignment -name BDF_FILE count16.bdf
+set_global_assignment -name BDF_FILE reg_8bit_ce.bdf
+set_global_assignment -name BDF_FILE RAM_5.bdf
+set_global_assignment -name BDF_FILE demux_5.bdf
+set_global_assignment -name BDF_FILE count_5.bdf
+set_global_assignment -name BDF_FILE decre_4bit.bdf
+set_global_assignment -name BDF_FILE mux_8bit_2x1.bdf
+set_global_assignment -name BDF_FILE half_adder.bdf
+set_global_assignment -name BDF_FILE full_adder.bdf
+set_global_assignment -name BDF_FILE mx_4bit_2x1.bdf
+set_global_assignment -name BDF_FILE mx_2x1.bdf
+set_global_assignment -name BDF_FILE four_bit_register.bdf
+set_global_assignment -name BDF_FILE eight_bit_register.bdf
+set_global_assignment -name BDF_FILE decimal_to_alphabet.bdf
+set_global_assignment -name BDF_FILE counter4.bdf
+set_global_assignment -name BDF_FILE adder_8bit_2bit.bdf
+set_global_assignment -name BDF_FILE counter2.bdf
+set_global_assignment -name BDF_FILE or_8bit.bdf
+set_global_assignment -name BDF_FILE bitToBus_8bit.bdf
+set_global_assignment -name BDF_FILE d2b_8bit.bdf
+set_global_assignment -name BDF_FILE INPUT_MODULE.bdf
+set_global_assignment -name BDF_FILE decre_2bit.bdf
+set_global_assignment -name BDF_FILE adder_8bit_4bit.bdf
+set_global_assignment -name BDF_FILE CONVERT_TO_ASCII.bdf
+set_global_assignment -name BDF_FILE adder_8bit_8bit.bdf
+set_global_assignment -name BDF_FILE PROJECT.bdf
+set_global_assignment -name BDF_FILE shw_module.bdf
+set_global_assignment -name BDF_FILE b2seg.bdf
+set_global_assignment -name BDF_FILE is_ascii.bdf
+set_global_assignment -name BDF_FILE mov_module.bdf
+set_global_assignment -name BDF_FILE add_module.bdf
+set_global_assignment -name BDF_FILE adder_subtractor_8bit.bdf
+set_global_assignment -name BDF_FILE and_8bit_2bit.bdf
+set_global_assignment -name BDF_FILE sub_module.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform7.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform8.vwf
+set_global_assignment -name BDF_FILE trigger_8bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform9.vwf
+set_global_assignment -name BDF_FILE decre_3bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform10.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform11.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform12.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform13.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform14.vwf

@@ -1,0 +1,348 @@
+$comment
+	File created using the following command:
+		vcd file assignment_9.msim.vcd -direction
+$end
+$date
+	Tue Nov 02 20:10:36 2021
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module assignment_9_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " eight $end
+$var reg 1 # five $end
+$var reg 1 $ four $end
+$var reg 1 % nine $end
+$var reg 1 & one $end
+$var reg 1 ' rst $end
+$var reg 1 ( seven $end
+$var reg 1 ) six $end
+$var reg 1 * three $end
+$var reg 1 + two $end
+$var reg 1 , zero $end
+$var wire 1 - Output1 [3] $end
+$var wire 1 . Output1 [2] $end
+$var wire 1 / Output1 [1] $end
+$var wire 1 0 Output1 [0] $end
+$var wire 1 1 Output2 [3] $end
+$var wire 1 2 Output2 [2] $end
+$var wire 1 3 Output2 [1] $end
+$var wire 1 4 Output2 [0] $end
+
+$scope module i1 $end
+$var wire 1 5 gnd $end
+$var wire 1 6 vcc $end
+$var wire 1 7 unknown $end
+$var tri1 1 8 devclrn $end
+$var tri1 1 9 devpor $end
+$var tri1 1 : devoe $end
+$var wire 1 ; inst7|inst3~regout $end
+$var wire 1 < clk~combout $end
+$var wire 1 = eight~combout $end
+$var wire 1 > nine~combout $end
+$var wire 1 ? zero~combout $end
+$var wire 1 @ rst~combout $end
+$var wire 1 A four~combout $end
+$var wire 1 B two~combout $end
+$var wire 1 C six~combout $end
+$var wire 1 D inst11~2_combout $end
+$var wire 1 E one~combout $end
+$var wire 1 F three~combout $end
+$var wire 1 G seven~combout $end
+$var wire 1 H inst11~1_combout $end
+$var wire 1 I five~combout $end
+$var wire 1 J inst7|inst2~regout $end
+$var wire 1 K inst7|inst $end
+$var wire 1 L inst|inst3~regout $end
+$var wire 1 M inst6|inst14~0_combout $end
+$var wire 1 N inst|inst2~regout $end
+$var wire 1 O inst11~0_combout $end
+$var wire 1 P inst|inst1~regout $end
+$var wire 1 Q inst|inst~regout $end
+$var wire 1 R inst4|inst3~regout $end
+$var wire 1 S inst4|inst2~regout $end
+$var wire 1 T inst4|inst1~regout $end
+$var wire 1 U inst4|inst~regout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+1'
+0(
+0)
+0*
+0+
+0,
+00
+0/
+0.
+0-
+04
+03
+02
+01
+05
+16
+x7
+18
+19
+1:
+0;
+0<
+0=
+0>
+0?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+1H
+0I
+0J
+0K
+0L
+0M
+0N
+1O
+0P
+0Q
+0R
+0S
+0T
+0U
+$end
+#20000
+1&
+1!
+1E
+1<
+0H
+#40000
+0!
+0<
+#60000
+0&
+1!
+0E
+1<
+1H
+1J
+1K
+#80000
+0!
+0<
+#100000
+1+
+1!
+1B
+1<
+0O
+1D
+1;
+0J
+0K
+#120000
+0!
+0<
+#140000
+1!
+1<
+0;
+1J
+1K
+#160000
+0!
+0<
+#180000
+0+
+1!
+0B
+1<
+1O
+0D
+1P
+1;
+0K
+1/
+#200000
+0!
+0<
+#220000
+1!
+1<
+0J
+#240000
+0!
+0<
+#260000
+1!
+1<
+0;
+#280000
+0!
+0<
+#300000
+1)
+1!
+1C
+1<
+0O
+1M
+1D
+#320000
+0!
+0<
+#340000
+1!
+1<
+1J
+1K
+#360000
+0!
+0<
+#380000
+0)
+1!
+0C
+1<
+1O
+0M
+0D
+1T
+1N
+1;
+0K
+13
+1.
+#400000
+0!
+0<
+#420000
+1!
+1<
+0J
+#440000
+0!
+0<
+#460000
+1!
+1<
+0;
+#480000
+0!
+0<
+#490000
+1%
+1>
+0H
+#500000
+1!
+1<
+1J
+1K
+#520000
+0!
+0<
+#540000
+1!
+1<
+1S
+1Q
+0P
+0N
+1L
+1;
+0K
+12
+10
+0/
+0.
+1-
+#560000
+0%
+0!
+0>
+0<
+1H
+#580000
+1!
+1<
+0J
+#600000
+0!
+0<
+#620000
+1!
+1<
+0;
+#640000
+0!
+0<
+#660000
+1!
+1<
+#680000
+0!
+0<
+#700000
+1!
+1<
+#720000
+0!
+0<
+#740000
+1!
+1<
+#760000
+0!
+0<
+#780000
+1!
+1<
+#800000
+0!
+0<
+#820000
+1!
+1<
+#840000
+0!
+0<
+#860000
+1!
+1<
+#880000
+0!
+0<
+#900000
+1!
+1<
+#920000
+0!
+0<
+#940000
+1!
+1<
+#960000
+0!
+0<
+#980000
+1!
+1<
+#1000000

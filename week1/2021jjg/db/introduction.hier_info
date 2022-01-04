@@ -1,0 +1,14 @@
+|practice1
+OUT1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst5.IN0
+A => inst2.IN1
+A => inst3.IN1
+A => inst6.IN1
+C => inst4.IN0
+C => inst5.IN1
+D => inst4.IN1
+D => inst5.IN2
+OUT2 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

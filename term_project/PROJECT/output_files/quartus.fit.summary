@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Dec 22 15:23:04 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : quartus
+Top-level Entity Name : CPU_MEMORY
+Family : MAX V
+Device : 5M570ZT144C4
+Timing Models : Final
+Total logic elements : 213 / 570 ( 37 % )
+Total pins : 75 / 114 ( 66 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

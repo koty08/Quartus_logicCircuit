@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1/assignment_9/simulation/qsim
+vassignment_9
+Z1 !s110 1635851435
+!i10b 1
+!s100 `FRnLC?`99ijON=i;e^VI3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[lOG;amd<jLC<Nb8IoKzE0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1635851434
+Z5 8assignment_9.vo
+Z6 Fassignment_9.vo
+!i122 18
+L0 32 778
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1635851435.000000
+Z9 !s107 assignment_9.vo|
+Z10 !s90 -work|work|assignment_9.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vassignment_9_vlg_vec_tst
+R1
+!i10b 1
+!s100 4=W6OU07X@RAJ_o=GYU871
+R2
+IBNG[IHH?3[F0?f?l_FJi73
+R3
+R0
+R4
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 19
+L0 30 124
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+vdecimal_to_binary
+Z13 !s110 1635847913
+!i10b 1
+!s100 ZUYX>HJnZfmC@COfJP;6o1
+R2
+I0c2:?]a8D]YTECaZh<2<U3
+R3
+R0
+Z14 w1635847912
+R5
+R6
+!i122 2
+L0 32 456
+R7
+r1
+!s85 0
+31
+Z15 !s108 1635847913.000000
+R9
+R10
+!i113 1
+R11
+R12
+vdecimal_to_binary_vlg_vec_tst
+R13
+!i10b 1
+!s100 Ei_XZ=LNLNMWi<BQ<eH7B3
+R2
+IQ>>iL[4Y>I4Mna_8gzRUG3
+R3
+R0
+R14
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 122
+R7
+r1
+!s85 0
+31
+R15
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12

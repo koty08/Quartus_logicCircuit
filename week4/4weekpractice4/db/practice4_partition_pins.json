@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Dout0",
+					"strict" : false
+				},
+				{
+					"name" : "Dout1",
+					"strict" : false
+				},
+				{
+					"name" : "Dout2",
+					"strict" : false
+				},
+				{
+					"name" : "Dout3",
+					"strict" : false
+				},
+				{
+					"name" : "Din0",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "Ce",
+					"strict" : false
+				},
+				{
+					"name" : "Din1",
+					"strict" : false
+				},
+				{
+					"name" : "Din2",
+					"strict" : false
+				},
+				{
+					"name" : "Din3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

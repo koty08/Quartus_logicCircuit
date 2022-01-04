@@ -1,0 +1,179 @@
+|assignment_9
+Output1[0] <= four_bit_register:inst.Dout[0]
+Output1[1] <= four_bit_register:inst.Dout[1]
+Output1[2] <= four_bit_register:inst.Dout[2]
+Output1[3] <= four_bit_register:inst.Dout[3]
+six => inst10.IN0
+six => decimal_to_binary:inst6.d6
+eight => inst10.IN1
+eight => decimal_to_binary:inst6.d8
+nine => inst10.IN2
+nine => decimal_to_binary:inst6.d9
+seven => inst10.IN3
+seven => decimal_to_binary:inst6.d7
+zero => inst9.IN0
+zero => decimal_to_binary:inst6.d0
+two => inst9.IN1
+two => decimal_to_binary:inst6.d2
+one => inst9.IN2
+one => decimal_to_binary:inst6.d1
+three => inst9.IN3
+three => decimal_to_binary:inst6.d3
+four => inst9.IN4
+four => decimal_to_binary:inst6.d4
+five => inst9.IN5
+five => decimal_to_binary:inst6.d5
+clk => trigger:inst7.CLK
+clk => four_bit_register:inst.CLK
+clk => four_bit_register:inst4.CLK
+rst => trigger:inst7.RST
+rst => four_bit_register:inst.RST_N
+rst => four_bit_register:inst4.RST_N
+Output2[0] <= four_bit_register:inst4.Dout[0]
+Output2[1] <= four_bit_register:inst4.Dout[1]
+Output2[2] <= four_bit_register:inst4.Dout[2]
+Output2[3] <= four_bit_register:inst4.Dout[3]
+
+
+|assignment_9|four_bit_register:inst
+Dout[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+RST_N => inst.ACLR
+RST_N => inst1.ACLR
+RST_N => inst2.ACLR
+RST_N => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+Din[0] => mux:inst9.data2
+Din[1] => mux:inst10.data2
+Din[2] => mux:inst11.data2
+Din[3] => mux:inst12.data2
+Ce => mux:inst9.sel
+Ce => mux:inst10.sel
+Ce => mux:inst11.sel
+Ce => mux:inst12.sel
+
+
+|assignment_9|four_bit_register:inst|mux:inst9
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+
+|assignment_9|four_bit_register:inst|mux:inst10
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+
+|assignment_9|four_bit_register:inst|mux:inst11
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+
+|assignment_9|four_bit_register:inst|mux:inst12
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+
+|assignment_9|trigger:inst7
+Dout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+RST => inst2.ACLR
+RST => inst3.ACLR
+CLK => inst2.CLK
+CLK => inst3.CLK
+Din => inst2.DATAIN
+
+
+|assignment_9|decimal_to_binary:inst6
+b0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+d0 => inst16.IN0
+d1 => inst10.IN0
+d5 => inst10.IN1
+d5 => inst3.IN3
+d3 => inst10.IN2
+d3 => inst9.IN3
+d7 => inst10.IN3
+d7 => inst9.IN2
+d7 => inst3.IN2
+d9 => inst10.IN4
+d9 => inst.IN0
+b1 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+d2 => inst9.IN0
+d6 => inst9.IN1
+d6 => inst3.IN1
+b2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+d4 => inst3.IN0
+b3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+d8 => inst.IN1
+
+
+|assignment_9|four_bit_register:inst4
+Dout[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+RST_N => inst.ACLR
+RST_N => inst1.ACLR
+RST_N => inst2.ACLR
+RST_N => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+Din[0] => mux:inst9.data2
+Din[1] => mux:inst10.data2
+Din[2] => mux:inst11.data2
+Din[3] => mux:inst12.data2
+Ce => mux:inst9.sel
+Ce => mux:inst10.sel
+Ce => mux:inst11.sel
+Ce => mux:inst12.sel
+
+
+|assignment_9|four_bit_register:inst4|mux:inst9
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+
+|assignment_9|four_bit_register:inst4|mux:inst10
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+
+|assignment_9|four_bit_register:inst4|mux:inst11
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+
+|assignment_9|four_bit_register:inst4|mux:inst12
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+data2 => inst1.IN0
+sel => inst1.IN1
+sel => inst6.IN0
+data1 => inst.IN0
+
+

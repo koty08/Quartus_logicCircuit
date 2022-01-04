@@ -1,0 +1,6 @@
+|practice1
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D => inst.DATAIN
+ENABLE => inst.LATCH_ENABLE
+
+

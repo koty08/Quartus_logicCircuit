@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/4weekpractice1/practice1.bdf
+source_file = 1, C:/4weekpractice1/Waveform.vwf
+source_file = 1, C:/4weekpractice1/practice1_1.bdf
+source_file = 1, C:/4weekpractice1/db/practice1.cbx.xml
+design_name = practice1_1
+instance = comp, \Q~output , Q~output, practice1_1, 1
+instance = comp, \CLK~input , CLK~input, practice1_1, 1
+instance = comp, \D~input , D~input, practice1_1, 1
+instance = comp, \inst~feeder , inst~feeder, practice1_1, 1
+instance = comp, \RST_N~input , RST_N~input, practice1_1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, practice1_1, 1

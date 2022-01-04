@@ -1,0 +1,31 @@
+# do practice2.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:52 on Sep 28,2021
+# vlog -work work practice2.vo 
+# -- Compiling module practice2
+# 
+# Top level modules:
+# 	practice2
+# End time: 19:30:52 on Sep 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:52 on Sep 28,2021
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module practice2_vlg_vec_tst
+# 
+# Top level modules:
+# 	practice2_vlg_vec_tst
+# End time: 19:30:52 on Sep 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.practice2_vlg_vec_tst 
+# Start time: 19:30:53 on Sep 28,2021
+# Loading work.practice2_vlg_vec_tst
+# Loading work.practice2
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# after#23
+# ** Note: $finish    : Waveform.vwf.vt(101)
+#    Time: 1 us  Iteration: 0  Instance: /practice2_vlg_vec_tst
+# End time: 19:30:53 on Sep 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
